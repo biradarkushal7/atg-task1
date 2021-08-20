@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "a804869d-5950-4fd2-a6f3-fd9ea3d86387",
+		"name": "API1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.flickr.com/services/rest/?method=flickr.photos.getPopular&api_key=253a57a55cd23746c99ea55e495494c8&user_id=193141403%40N03&format=json&nojsoncallback=1",
+					"protocol": "https",
+					"host": [
+						"www",
+						"flickr",
+						"com"
+					],
+					"path": [
+						"services",
+						"rest",
+						""
+					],
+					"query": [
+						{
+							"key": "method",
+							"value": "flickr.photos.getPopular"
+						},
+						{
+							"key": "api_key",
+							"value": "253a57a55cd23746c99ea55e495494c8"
+						},
+						{
+							"key": "user_id",
+							"value": "193141403%40N03"
+						},
+						{
+							"key": "format",
+							"value": "json"
+						},
+						{
+							"key": "nojsoncallback",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
